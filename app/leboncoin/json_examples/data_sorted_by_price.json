@@ -1,0 +1,79 @@
+[{
+  "title": "GARAGE (place Metz- rue Strasbourg)",
+  "description": "15 rue Beyle Stendhal (entre Poste et place Aprvil)\nBox 1 voiture\nLIBRE\nSi interessé tel ou SMS uniquement au \n06 58 76 98 64",
+  "category": "Ventes immobilières",
+  "link": "https://www.leboncoin.fr/vi/1484397403.htm",
+  "location": {
+    "region_id": "22",
+    "region_name": "Rhône-Alpes",
+    "department_id": "38",
+    "department_name": "Isère",
+    "city_label": "Grenoble 38000",
+    "city": "Grenoble",
+    "zipcode": "38000",
+    "lat": 45.19705,
+    "lng": 5.72155,
+    "source": "user",
+    "provider": "lbc",
+    "is_shape": false
+  },
+  "urgent": false,
+  "price": 1000,
+  "date": "2018-08-31T14:49:05.000Z",
+  "owner": {
+    "store_id": "523507",
+    "user_id": "e66cc6d2-6b64-429d-b07d-72b517c1387f",
+    "type": "private",
+    "name": "annie38",
+    "no_salesmen": true
+  },
+  "attributes": {
+    "real_estate_type": "4",
+    "square": "14",
+    "ges": "v",
+    "energy_rate": "v"
+  },
+  "id": 1484397403,
+  "seller": "annie38",
+  "has_phone": true
+},
+{
+  "title": "Place parking securisee a 150 metres autoroute",
+  "description": "vend place de parking sécurisé avec vigicode + barriere sur le parking\n\na 150 metres de l'autoroute sur le cours jean jaures",
+  "category": "Ventes immobilières",
+  "link": "https://www.leboncoin.fr/vi/1469636697.htm",
+  "images": [
+    "https://img4.leboncoin.fr/ad-image/d3bfc15b1b9121c88bdd1b8535b4cc3f7abfb8c6.jpg",
+    "https://img0.leboncoin.fr/ad-image/fac1d8343afab8c856a3ec141c97131859106731.jpg"
+  ],
+  "location": {
+    "region_id": "22",
+    "region_name": "Rhône-Alpes",
+    "department_id": "38",
+    "department_name": "Isère",
+    "city_label": "Grenoble 38000",
+    "city": "Grenoble",
+    "zipcode": "38000",
+    "lat": 45.19705,
+    "lng": 5.72155,
+    "source": "city",
+    "provider": "lbc",
+    "is_shape": true
+  },
+  "urgent": false,
+  "price": 3600,
+  "date": "2018-07-30T23:08:04.000Z",
+  "owner": {
+    "store_id": "21970369",
+    "user_id": "ae2b8af2-86d9-4324-9fe1-ecdda5161cd6",
+    "type": "private",
+    "name": "JONSERREAU",
+    "no_salesmen": true
+  },
+  "attributes": {
+    "real_estate_type": "4"
+  },
+  "id": 1469636697,
+  "seller": "JONSERREAU",
+  "has_phone": true
+}]

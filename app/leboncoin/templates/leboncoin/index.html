@@ -1,1 +1,5 @@
-zefzef
+{% for add in add_list %}
+  <h3>{{ add.title }}</h3>
+  <p>{{ add.description }}</p>
+  <p>{{ add.price }}</p>
+{% endfor %}

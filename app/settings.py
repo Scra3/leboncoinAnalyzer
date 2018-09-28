@@ -25,7 +25,7 @@ SECRET_KEY = 'kw@k0_qun!%5d%!wg*$020n)r(t-mnbx2cf9yh0aynyi@x7&%l'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0']
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost']
 
 
 # Application definition
@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'app',
+    'app.leboncoin'
 ]
 
 MIDDLEWARE = [

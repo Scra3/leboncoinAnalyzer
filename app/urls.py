@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.urls import path
 
-from . import views
+from .leboncoin import views
 
 urlpatterns = [
     path('leboncoin/api', views.leboncoin_api),
