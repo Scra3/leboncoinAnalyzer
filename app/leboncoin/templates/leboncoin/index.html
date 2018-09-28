@@ -1,5 +1,6 @@
-{% for add in add_list %}
-  <h3>{{ add.title }}</h3>
-  <p>{{ add.description }}</p>
-  <p>{{ add.price }}</p>
+{% for ad in ad_list %}
+<h3>{{ ad.title }}</h3>
+<p>{{ ad.description }}</p>
+<p>{{ ad.price }}</p>
+<p>{{ ad.location.city_label }}</p>
 {% endfor %}
