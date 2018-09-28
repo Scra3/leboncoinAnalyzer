@@ -5,7 +5,6 @@ from django.shortcuts import render
 
 from app.leboncoin.services import LeboncoinService
 
-
 def leboncoin_api(_):
     return HttpResponse(
         LeboncoinService.leboncoin_adds(), content_type='application/json'

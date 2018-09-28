@@ -1,6 +1,8 @@
 import json
 import requests
 
+from app.configs import Configs
+
 class LeboncoinService:
 
     @staticmethod
@@ -13,8 +15,7 @@ class LeboncoinService:
     @staticmethod
     def leboncoin_api_adds():
         try:
-            url = 'https://leboncoin-api-ms.herokuapp.com/'
-            return requests.get(url).json()
+            return requests.get(Configs.LEBONCOIN_URL).json()
         except requests.exceptions.HTTPError:
             print("Can't access to the leboncoin api")
 
