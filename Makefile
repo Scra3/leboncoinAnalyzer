@@ -27,7 +27,7 @@ run-console: ## Run console
 
 .PHONY: run-pylint
 run-pylint: ## Run linter
-	docker-compose run web pylint --rcfile=pylintrc app/*/*.py
+	docker-compose run web pylint app/* --load-plugins pylint_django --disable=missing-docstring
 
 
 .PHONY: help

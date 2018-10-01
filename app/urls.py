@@ -20,4 +20,5 @@ from .leboncoin import views
 urlpatterns = [
     path('leboncoin/api', views.leboncoin_api),
     path('leboncoin/api/beautify', views.leboncoin_api_beautify),
+    path('leboncoin/api/save', views.leboncoin_api_save),
 ]
