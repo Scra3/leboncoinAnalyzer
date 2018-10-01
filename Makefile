@@ -18,12 +18,18 @@ run-tests: ## Run tests
 
 .PHONY: run-migrations
 run-migrations: ## Run migrations
-	docker-compose exec web python manage.py makemigrations
+	docker-compose exec web python manage.py makemigrations $(app)
 	docker-compose exec web python manage.py migrate
+
+.PHONY: run-console
+run-console: ## Run console
+	docker-compose run web python manage.py shell
 
 .PHONY: run-pylint
 run-pylint: ## Run linter
 	docker-compose run web pylint --rcfile=pylintrc app/*/*.py
+
+
 .PHONY: help
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
